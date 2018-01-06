@@ -110,16 +110,12 @@ MASTER_SIDE_CP_TARGET_LIST := msm8998 # ION specific settings
 # A/B support
 PRODUCT_PACKAGES += \
     otapreopt_script \
-    cppreopts.sh \
     update_engine \
     update_verifier
 
 PRODUCT_PACKAGES += \
     bootctrl.msm8998 \
     bootctrl.msm8998.recovery
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cp_system_other_odex=1
 
 AB_OTA_UPDATER := true
 
