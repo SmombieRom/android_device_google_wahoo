@@ -19,3 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # MiFare Permissions file
 PRODUCT_COPY_FILES += \
       frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
+
+# Theme
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=org.lineageos.overlay.dark
