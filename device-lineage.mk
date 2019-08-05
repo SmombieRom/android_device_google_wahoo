@@ -10,3 +10,8 @@ PRODUCT_PACKAGES += \
    com.android.ims.rcsmanager \
    RcsService \
    PresencePolling
+
+# SurfaceFlinger and Hardware Acceleration Tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+   debug.sf.disable_backpressure=1 \
+   video.accelerate.hw=1
