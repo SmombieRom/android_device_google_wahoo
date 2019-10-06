@@ -11,7 +11,6 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     MKDTIMG=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/libufdt/mkdtimg
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/google/wahoo
-TARGET_NEEDS_DTBOIMAGE := true
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
